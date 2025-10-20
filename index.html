@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Collection</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5 main-content">
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <h1 class="display-4">Game Collection</h1>
+                <p>A collection of games from Gunnar and Jace</p>
+                <p class="lead">Discover amazing games</p>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center" id="gameContainer">
+            <!-- Gunnar's Game Card -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card game-card h-100 shadow">
+                    <div class="position-relative">
+                        <img src="https://via.placeholder.com/300x250?text=Gunnar%27s+Game" 
+                             class="card-img-top" 
+                             alt="Gunnar's Game Thumbnail" 
+                             id="gunnarGameImg">
+                        <button class="btn btn-outline-danger favorite-btn" 
+                                id="gunnarFavoriteBtn" 
+                                data-game="gunnar"
+                                title="Add to favorites">
+                            <i class="heart-icon">♡</i>
+                        </button>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title" id="gunnarGameTitle">Gunnar's Game</h5>
+                        <p class="card-text flex-grow-1" id="gunnarGameDescription">
+                            Loading game description...
+                        </p>
+                        <div class="mt-auto">
+                            <button class="btn btn-primary w-100" id="gunnarGameBtn">Play Game</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Jace's Game Card -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card game-card h-100 shadow">
+                    <div class="position-relative">
+                        <img src="https://via.placeholder.com/300x250?text=Jace%27s+Game" 
+                             class="card-img-top" 
+                             alt="Jace's Game Thumbnail" 
+                             id="jaceGameImg">
+                        <button class="btn btn-outline-danger favorite-btn" 
+                                id="jaceFavoriteBtn" 
+                                data-game="jace"
+                                title="Add to favorites">
+                            <i class="heart-icon">♡</i>
+                        </button>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title" id="jaceGameTitle">Jace's Game</h5>
+                        <p class="card-text flex-grow-1" id="jaceGameDescription">
+                            Loading game description...
+                        </p>
+                        <div class="mt-auto">
+                            <button class="btn btn-primary w-100" id="jaceGameBtn">Play Game</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light mt-5 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-3 mb-3">
+                            <h6>Dev Profiles</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="https://jcalvert22.github.io/Project-Alpha/" class="text-light">Jace's</a></li>
+                                <li><a href="https://gunnar-schmidtt.github.io/" class="text-light">Gunnar's</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <h6>Validators</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-light">Nu</a></li>
+                                <li><a href="#" class="text-light">Wave</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <p class="mb-0">&copy; 2025 Game Collection. All rights reserved.</p>
+                    <small class="text-muted">Developed with for gamers</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript for API calls -->
+    <script src="script/script.js"></script>
+</body>
+</html>
