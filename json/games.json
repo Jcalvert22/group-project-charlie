@@ -1,14 +1,50 @@
 {
     "gunnarGame": {
-        "title": "Gunnar's Game",
-        "description": "A game to test your reaction time by reacting to a changing visual cue as quickly as possible.",
-        "thumbnail": "assets/game-thumb.jpg",
-        "gameUrl": "https://gunnar-schmidtt.github.io/project-bravo/"
+        "name": "Gunnar's Game",
+        "repo": "A game to test your reaction time by reacting to a changing visual cue as quickly as possible.",
+        "app": "https://gunnar-schmidtt.github.io/project-bravo/",
+        "img": "assets/game-thumb.jpg"
     },
     "jaceGame": {
-        "title": "Jace's Game",
-        "description": "A game to test reaction time by dragging an emoticon into a box four different times.",
-        "thumbnail": "assets/game-thumb.png",
-        "gameUrl": "https://jcalvert22.github.io/project-bravo/"
+        "name": "Jace's Game",
+        "repo": "A game to test reaction time by dragging an emoticon into a box four different times.",
+        "app": "https://jcalvert22.github.io/project-bravo/",
+        "img": "assets/game-thumb.png"
+    },
+    "alexGame": {
+        "name": "Matching Game",
+        "repo": "https://github.com/Alex-Copeland-5/alex-copeland-5",
+        "app": "https://alex-copeland-5.github.io/alex-copeland-5/",
+        "img": "https://alex-copeland-5.github.io/alex-copeland-5/images/GameSnippet.png"
+    },
+    "chickenGame": {
+        "name": "Newspaper Delivery",
+        "repo": "https://github.com/ChickenAlfredo1121/ProjectBravo",
+        "app": "https://chickenalfredo1121.github.io/ProjectBravo/",
+        "img": "https://chickenalfredo1121.github.io/ProjectBravo/images/GamePic.png"
+    },
+    "mdukesGame": {
+        "name": "Berry Picker",
+        "repo": "https://github.com/mdukes0/project-bravo.git",
+        "app": "https://mdukes0.github.io/project-bravo/",
+        "img": "https://mdukes0.github.io/project-bravo/images/BerryPickerSnippet.png"
+    },
+    "jacobGame": {
+        "name": "Memory Matching Game",
+        "repo": "https://github.com/jacobej15/Memory-Matching-Game-.git",
+        "app": "https://jacobej15.github.io/Memory-Matching-Game-/",
+        "img": "https://github.com/jacobej15/Memory-Matching-Game-/blob/db5997aadd7c0ae1f80931aa5d50b64ceddea97b/Memory-Matching-Game--main/images/colors.png?raw=true"
+    },
+    "johnGame": {
+        "name": "Match the Hello World phrase",
+        "repo": "https://github.com/JohnWeatherford/vigilant-doodle-bravo",
+        "app": "https://johnweatherford.github.io/vigilant-doodle-bravo/",
+        "img": "https://github.com/user-attachments/assets/9232375f-61fb-4a6f-8adb-c4bb2b1df1eb"
+    },
+    "sylviaGame": {
+        "name": "Click Click Game",
+        "repo": "https://github.com/sweetiesyvi/ProjectBravo",
+        "app": "https://sweetiesyvi.github.io/ProjectBravo/",
+        "img": "https://sweetiesyvi.github.io/ProjectBravo/images/ClickClickGameSnippet.png"
     }
 }

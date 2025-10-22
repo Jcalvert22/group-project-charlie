@@ -14,65 +14,14 @@
         <div class="row">
             <div class="col-12 text-center mb-4">
                 <h1 class="display-4">Game Collection</h1>
-                <p>A collection of games from Gunnar and Jace</p>
+                <p>A dynamic collection of amazing games</p>
                 <p class="lead">Discover amazing games</p>
             </div>
         </div>
         
+        <!-- Dynamic game container - cards will be generated automatically -->
         <div class="row justify-content-center" id="gameContainer">
-            <!-- Gunnar's Game Card -->
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="card game-card h-100 shadow">
-                    <div class="position-relative">
-                        <img src="https://via.placeholder.com/300x250?text=Gunnar%27s+Game" 
-                             class="card-img-top" 
-                             alt="Gunnar's Game Thumbnail" 
-                             id="gunnarGameImg">
-                        <button class="btn btn-outline-danger favorite-btn" 
-                                id="gunnarFavoriteBtn" 
-                                data-game="gunnar"
-                                title="Add to favorites">
-                            <i class="heart-icon">♡</i>
-                        </button>
-                    </div>
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title" id="gunnarGameTitle">Gunnar's Game</h5>
-                        <p class="card-text flex-grow-1" id="gunnarGameDescription">
-                            Loading game description...
-                        </p>
-                        <div class="mt-auto">
-                            <button class="btn btn-primary w-100" id="gunnarGameBtn">Play Game</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Jace's Game Card -->
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="card game-card h-100 shadow">
-                    <div class="position-relative">
-                        <img src="https://via.placeholder.com/300x250?text=Jace%27s+Game" 
-                             class="card-img-top" 
-                             alt="Jace's Game Thumbnail" 
-                             id="jaceGameImg">
-                        <button class="btn btn-outline-danger favorite-btn" 
-                                id="jaceFavoriteBtn" 
-                                data-game="jace"
-                                title="Add to favorites">
-                            <i class="heart-icon">♡</i>
-                        </button>
-                    </div>
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title" id="jaceGameTitle">Jace's Game</h5>
-                        <p class="card-text flex-grow-1" id="jaceGameDescription">
-                            Loading game description...
-                        </p>
-                        <div class="mt-auto">
-                            <button class="btn btn-primary w-100" id="jaceGameBtn">Play Game</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- Game cards will be dynamically generated here -->
         </div>
     </div>
 
